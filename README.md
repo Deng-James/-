@@ -1,4 +1,4 @@
-# 系統程式筆記
+# 課程:系統程式
 
 欄位 | 內容
 -----|--------
@@ -9,3 +9,4 @@
 學校科系| [金門大學資訊工程系](https://www.nqu.edu.tw/edusie/index.php)
 課程內容 | https://gitlab.com/ccc109/ws
 
+## 課堂筆記
