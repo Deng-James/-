@@ -10,8 +10,10 @@
 -O2 : 做最佳化
 
 ### Example:
+```
 gcc -o file a.c b.c c.c
 gcc -Wall -g -o test test.c
 gcc -Iinclude -Llibrary -lmy_lib -o test1 test1.c
 gcc -DDEBUG_ON -o test2 test2.c
 gcc -c -o test3 test.c
+```
