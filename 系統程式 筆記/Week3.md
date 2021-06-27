@@ -77,8 +77,25 @@ goto L0
 
 ## 指標 ( Pointer ）
 ```
-指標（英語：Pointer），是程式語言中的一類資料類型及其物件或變數，用來表示或儲存一個記憶體位址，這個位址的值直接指向（points to）存在該位址的物件的值。
-
-
-
+指標（英語：Pointer），是程式語言中的一類資料類型及其物件或變數，用來表示或儲存一個記憶體位址
+，這個位址的值直接指向（points to）存在該位址的物件的值。
 ```
+![image](https://user-images.githubusercontent.com/55796905/123538299-cfed3f00-d766-11eb-9de6-04fb14680d7b.png)
+
+### Example
+```
+#include <stdio.h>
+
+int main(void) {
+    int b = 2;
+
+    printf("變數 b 的值：%d\n", b);
+    printf("變數 b 的記憶體位址：%p\n", &b); //%p為印出地址的16進位表示法
+
+    return 0;
+}
+```
+### 註解
+我們拿到一個地址，都是為了要去到這個地址上、以抓取上面的變數。
+利用 C 語言中的另一個運算元「 * 」來做這件事
+[資料來源](https://kopu.chat/2017/05/15/c%E8%AA%9E%E8%A8%80-%E8%B6%85%E5%A5%BD%E6%87%82%E7%9A%84%E6%8C%87%E6%A8%99%EF%BC%8C%E5%88%9D%E5%AD%B8%E8%80%85%E8%AB%8B%E9%80%B2%EF%BD%9E/)
