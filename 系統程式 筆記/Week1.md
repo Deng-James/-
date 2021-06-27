@@ -21,7 +21,7 @@ gcc -Iinclude -Llibrary -lmy_lib -o test1 test1.c
 gcc -DDEBUG_ON -o test2 test2.c
 gcc -c -o test3 test.c
 ```
-##### [來源](https://omusico.pixnet.net/blog/post/25368607)
+##### [gcc使用方式來源](https://omusico.pixnet.net/blog/post/25368607)
 
 ## makefile
 > 編譯小型程式可用簡單的命令編譯或 shell script 編譯，但當程式很大且包含大量標頭檔和函式庫時，就需要使用 makefile。
@@ -36,4 +36,4 @@ gcc -c -o test3 test.c
 - 依賴 (Dependency, Prerequisites) : 要產生目標檔 (target) 所依賴哪些檔。
 - 命令 (Command) : 建立專案時需要執行的 shell 命令。命令部分的每行的縮進必須要使用 Tab 鍵而不能使用多個空格。
 
-##### [來源](https://mropengate.blogspot.com/2018/01/makefile.html)
+##### [makefile來源](https://mropengate.blogspot.com/2018/01/makefile.html)
