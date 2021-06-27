@@ -11,7 +11,6 @@
 
 
 ## 課堂筆記
-##### 本程式修改自某某 github 專案 ...
 
 ### [Week1](https://github.com/Deng-James/2021-System-Programming/blob/main/%E7%B3%BB%E7%B5%B1%E7%A8%8B%E5%BC%8F%20%E7%AD%86%E8%A8%98/Week1.md)
 ### [Week2](https://github.com/Deng-James/2021-System-Programming/blob/main/%E7%B3%BB%E7%B5%B1%E7%A8%8B%E5%BC%8F%20%E7%AD%86%E8%A8%98/Week2.md)
