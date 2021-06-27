@@ -11,8 +11,6 @@
 | -Wall | 顯示所有的警告訊息 |
 | -g | 編入除錯資訊(要使用GDB除錯一定要加) |
 | -O2 | 做最佳化 |
-
-
 ### Example:
 ```
 gcc -o file a.c b.c c.c
@@ -22,6 +20,7 @@ gcc -DDEBUG_ON -o test2 test2.c
 gcc -c -o test3 test.c
 ```
 ##### [gcc使用方式來源](https://omusico.pixnet.net/blog/post/25368607)
+
 
 ## makefile
 > 編譯小型程式可用簡單的命令編譯或 shell script 編譯，但當程式很大且包含大量標頭檔和函式庫時，就需要使用 makefile。
