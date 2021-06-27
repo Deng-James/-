@@ -1,0 +1,4 @@
+## 編譯器（compiler）
+一個現代編譯器的主要工作流程如下：
+
+原始碼（source code）→ 預處理器（preprocessor）→ 編譯器（compiler）→ 組譯程式（assembler）→ 目的碼（object code）→ 連結器（linker）→ 執行檔（executables），最後打包好的檔案就可以給電腦去判讀執行了。
